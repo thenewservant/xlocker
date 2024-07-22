@@ -44,11 +44,6 @@
 Display *display;
 Window window, root;
 
-#define TIMEOUTPERATTEMPT 30000
-#define MAXGOODWILL (TIMEOUTPERATTEMPT * 5)
-#define INITIALGOODWILL MAXGOODWILL
-#define GOODWILLPORTION 0.3
-
 struct passwd *pw;
 int passwordok(const char *s)
 {
