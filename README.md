@@ -1,4 +1,4 @@
-xlocker is a minimal fork of the X/Wayland `xtrlock` screen locker, stripped of any redundancy or triviality, no padlock, no arguments.
+xlocker is a minimal fork of the X11 `xtrlock` screen locker, stripped of any redundancy or triviality, no padlock, no arguments.
 It allows to lock the screen without altering it visually.
 
 ### Installation
