@@ -1,7 +1,7 @@
 /*
  * xlocker.c
  *
- * minimal X/Wayland screen locker
+ * minimal X11 screen locker
  *
  * Copyright (C)1993,1994 Ian Jackson
  * Copyright (C)2024 thenewservant
@@ -67,7 +67,7 @@ int main(int argc, char **argv)
 
   if (getenv("WAYLAND_DISPLAY"))
     fprintf(stderr, "WARNING: Wayland X server detected: xlocker"
-                    " cannot intercept all user input. See xlocker(1).\n");
+                    " cannot intercept all user input.\n");
 
   errno = 0;
   pw = getpwuid(getuid());
