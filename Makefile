@@ -1,5 +1,4 @@
-# Makefile for xlocker - X Transparent Lock
-# This Makefile provided for those of you who lack a functioning xmkmf.
+# Makefile for xlocker - Minimal X11 screen locker
 #
 # Copyright (C)1993,1994 Ian Jackson
 # Copyright (C)2024 thenewservant
