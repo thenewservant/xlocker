@@ -18,7 +18,7 @@ CC=gcc
 CFLAGS=-Wall -Wextra
 INSTALL=install
 OWNER=root
-GROUP=shadow
+GROUP=root
 
 xlocker: xlocker.o
 
